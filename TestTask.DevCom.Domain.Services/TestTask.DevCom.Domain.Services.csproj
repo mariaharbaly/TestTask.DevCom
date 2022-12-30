@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TestTask.DevCom.Common\TestTask.DevCom.Common.csproj" />
+      <ProjectReference Include="..\TestTask.DevCom.Contracts\TestTask.DevCom.Contracts.csproj" />
+      <ProjectReference Include="..\TestTask.DevCom.Data\TestTask.DevCom.Data.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Mapster" Version="6.5.1" />
+    </ItemGroup>
+
+</Project>
